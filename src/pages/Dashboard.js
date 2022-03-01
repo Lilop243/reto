@@ -30,10 +30,6 @@ export default function Dashboard() {
       <div className="menu">
         <button><Link to='/update-profile'>Perfil</Link></button>
         <button onClick={handleLogout}>Salir</button>
-        {/* <button><Link to='/Form'>Registro</Link></button>
-        <button><Link to='/List'>Lista</Link></button>
-        <button><Link to='/Cru'>Cru</Link></button> */}
-       
       </div>
     </nav>
     { error && <h1>{error}</h1>}

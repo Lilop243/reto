@@ -8,7 +8,7 @@ export default function ForgotPassword() {
   const { resetPassword } = useAuth()
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const [message, setMessage] = useState('')
+  const [ setMessage] = useState('')
 
   async function handleSubmit(e) {
     e.preventDefault();

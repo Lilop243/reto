@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; //npm i axios
 import Modal from 'react-bootstrap/Modal'
-import { Button } from 'react-bootstrap';
-import Form from 'react-bootstrap/Form'
 import { Link } from 'react-router-dom';
 
 
@@ -70,17 +68,17 @@ const Estudiantes = () => {
     getMentos()
   }
 
-  const getMento = async (id) => {
-    const res = await axios.get(URL + '/obtener/' + id)
-    setId(res.data.id)
-    setApellidos(res.data.apellidos)
-    setNombres(res.data.nombres)
-    setPrograma(res.data.programa)
-    setSemestre(res.data.semestre)
-    setCedula(res.data.cedula)
-    setContacto(res.data.contacto)
-    setBandera(false)
-  }
+  // const getMento = async (id) => {
+  //   const res = await axios.get(URL + '/obtener/' + id)
+  //   setId(res.data.id)
+  //   setApellidos(res.data.apellidos)
+  //   setNombres(res.data.nombres)
+  //   setPrograma(res.data.programa)
+  //   setSemestre(res.data.semestre)
+  //   setCedula(res.data.cedula)
+  //   setContacto(res.data.contacto)
+  //   setBandera(false)
+  // }
 
   const addOrUpdateMento = () => {
     bandera ? addMento() : update()

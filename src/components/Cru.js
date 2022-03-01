@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; //npm i axios
 import Modal from 'react-bootstrap/Modal'
-import { Button } from 'react-bootstrap';
-import Form from 'react-bootstrap/Form'
 import { Link } from 'react-router-dom';
 
 
@@ -66,15 +64,15 @@ const Cru = () => {
     getMentos()
   }
 
-  const getMento = async (id) => {
-    const res = await axios.get(URL + '/obtener/' + id)
-    setId(res.data.id)
-    setMateria(res.data.materia)
-    setMonitor(res.data.monitor)
-    setFecha(res.data.fecha)
-    setSalon(res.data.salon)
-    setBandera(false)
-  }
+  // const getMento = async (id) => {
+  //   const res = await axios.get(URL + '/obtener/' + id)
+  //   setId(res.data.id)
+  //   setMateria(res.data.materia)
+  //   setMonitor(res.data.monitor)
+  //   setFecha(res.data.fecha)
+  //   setSalon(res.data.salon)
+  //   setBandera(false)
+  // }
 
   const addOrUpdateMento = () => {
     bandera ? addMento() : update()
