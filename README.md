@@ -12,25 +12,23 @@ Open ![ScreenShot](public/git.png) Programa sistematizado para mentorias .
 * Bootstrap
 
 
-##Descargar el repositorio
+## Descargar el repositorio
 
 $ git clone https://github.com/Lilop243/reto.git
 Instalar las dependecias
 
-###NPM
+### `npm i`
 
 $ npm install
-###YARN
 
-$ yarn install
-##Ejecutar servidor de desarrollo
+## Ejecutar servidor de desarrollo
 
-NPM
-
-$ npm start
-YARN
-
-$ yarn start
+### `npm start`
 
 
-##Cambiar direccíon URL con la api
+## YARN
+
+### `yarn start`
+
+
+## Cambiar direccíon URL con la api
