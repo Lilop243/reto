@@ -4,7 +4,7 @@
 
 ## Informacíon 
 
-Open [eee](https://raw.githubusercontent.com/parzibyte/WaterPy/master/public/git.png) to view it in your browser.
+Open ![ScreenShot](https://raw.githubusercontent.com/parzibyte/WaterPy/master/public/git.png) to view it in your browser.
 <!-- 
 ### `npm start`
 
