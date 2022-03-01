@@ -10,36 +10,27 @@ Open ![ScreenShot](public/git.png) Programa sistematizado para mentorias .
 * Firebase
 * React
 * Bootstrap
-Descargar el repositorio
 
-$ git clone https://github.com/carlossantesp/block-master-app.git
+
+##Descargar el repositorio
+
+$ git clone https://github.com/Lilop243/reto.git
 Instalar las dependecias
 
-NPM
+###NPM
 
 $ npm install
-YARN
+###YARN
 
 $ yarn install
-Ejecutar servidor de desarrollo
+##Ejecutar servidor de desarrollo
 
 NPM
 
-$ npm run dev
+$ npm start
 YARN
 
-$ yarn dev
-Construir sitio web para el deploy
+$ yarn start
 
-NPM
 
-$ npm run build
-YARN
-
-$ yarn build
-Copiar y renombrar el archivo .env-example por .env y cambiar las variables de entorno
-
-VITE_MOVIE_API_KEY=YOUR_API_KEY_THEMOVIEDB
-VITE_MOVIE_URL=https://api.themoviedb.org
-VITE_VERSION_MOVIE=3
-Debe cambiar YOUR_API_KEY_THEMOVIEDB por su API key proporcionado por la api themoviedb
+##Cambiar direccíon URL con la api
