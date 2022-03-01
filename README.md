@@ -4,7 +4,7 @@
 
 ## Informacíon 
 
-Open ![ScreenShot](public/git.png) to view it in your browser.
+Open ![ScreenShot](public/git.png) Programa sistematizado para mentorias .
 <!-- 
 ### `npm start`
 
