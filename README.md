@@ -7,7 +7,9 @@
 Open ![ScreenShot](public/git.png) Programa sistematizado para mentorias .
 
 ## Desarrollado con 
-
+* Firebase
+* React
+* Bootstrap
 ### `npm start`
 
 Runs the app in the development mode.\
