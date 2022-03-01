@@ -4,7 +4,7 @@
 
 ## Informacíon 
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [eee](https://raw.githubusercontent.com/parzibyte/WaterPy/master/public/git.png) to view it in your browser.
 <!-- 
 ### `npm start`
 
