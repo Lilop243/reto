@@ -1,15 +1,15 @@
-# Getting Started with Create React App
+# Programa de Mentorias - Prueba Tecnica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo](https://reto-ofjijdxzd-lilop243.vercel.app/) | [Demo](https://reto-ofjijdxzd-lilop243.vercel.app/)
 
-## Available Scripts
+## Informacíon 
 
-In the project directory, you can run:
-
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [e](https://res.cloudinary.com/lilopez7/image/upload/v1646116405/aca-geek/Captura_de_pantalla_2022-03-01_013227_mpgdnu.png) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -68,3 +68,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->
