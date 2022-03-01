@@ -1,0 +1,25 @@
+
+
+.header{
+    text-align: center;
+    color: rgb(173, 69, 69);
+    padding: 0.3%;
+    font-size: 120%;
+}
+
+.header nav{
+    display: inline-block;
+    padding-left:10%;
+    padding-right:10%; 
+}
+
+.link{
+    text-decoration: none;
+    letter-spacing: 5px;
+    padding-right:10%; 
+}
+
+
+.link:hover{
+    color: thistle;
+}
