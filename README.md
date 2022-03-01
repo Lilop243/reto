@@ -6,6 +6,8 @@
 
 Open ![ScreenShot](public/git.png) Programa sistematizado para mentorias .
 
+## Desarrollado con 
+
 ### `npm start`
 
 Runs the app in the development mode.\
