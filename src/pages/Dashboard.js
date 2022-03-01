@@ -28,6 +28,8 @@ export default function Dashboard() {
     <nav>
       <h2>Bienvenido { currentUser.email }</h2>
       <div className="menu">
+        <button><Link to='/Cru'>Monitorias</Link></button>
+        <button><Link to='/Estudiantes'>Monitores</Link></button>
         <button><Link to='/update-profile'>Perfil</Link></button>
         <button onClick={handleLogout}>Salir</button>
       </div>
@@ -35,8 +37,7 @@ export default function Dashboard() {
     { error && <h1>{error}</h1>}
    
   </div>
-  <button><Link to='/Cru'>Mentoria</Link></button>
-  <button><Link to='/Estudiantes'>Registro</Link></button>
+
 </div>
   )
 }

@@ -37,9 +37,9 @@ button {
   border-radius: 20px;
   background: radial-gradient(
     ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
+    rgb(109, 21, 14) 0%,
     rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
+    rgba(109, 21, 14) 100%
   );
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
 }
@@ -58,7 +58,7 @@ button {
   outline: none;
   font-size: 19px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(209, 22, 22, 0.1);
   color: #fff;
   letter-spacing: 1px;
 }
@@ -101,22 +101,16 @@ button {
     rgba(15, 224, 109, 0.9) 59%,
     rgba(17, 27, 75, 0.9) 100%
   ); */
-  background-image: url(https://thumbs.dreamstime.com/b/grupo-de-estudiantes-108385479.jpg);
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190410/pngtree-purple-gradient-large-data-background-image_98048.jpg);
 }
-/* .dash {
-  width: 100%;
-  min-height: 100vh;
-  /* background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(15, 224, 109, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  ); */
-  /* background-image: url(https://thumbs.dreamstime.com/b/grupo-de-estudiantes-108385479.jpg); */
- */
+.dash {
+  width: 100%; 
+  min-height: 100vh; 
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190410/pngtree-purple-gradient-large-data-background-image_98048.jpg);
+}
 
 .hero nav {
-  background: #603bbb;
+  background: #181818;
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -124,7 +118,7 @@ button {
   justify-content: space-between;
 }
 .dash nav {
-  background: #603bbb;
+  background: #181818;
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -143,7 +137,7 @@ button {
   width: auto;
   padding: 10px;
   margin-left: 10px;
-  background: #3a2b58;
+  background: #e61950;
 }
 
 
@@ -205,7 +199,7 @@ h1{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #28342a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
