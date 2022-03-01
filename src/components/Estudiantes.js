@@ -24,9 +24,9 @@ const Estudiantes = () => {
   }, [])
 
   function filtro() {
-    return listaMento.filter((libro) =>
-      libro.nombres.toLowerCase().indexOf(buscar.toLowerCase()) > -1)
-  }
+
+    return listaMento.filter(nombre => nombre.nombre.toLocaleLowerCase().includes(buscar) ) 
+ }
 
   const [show, setShow] = useState(false);
 
@@ -67,18 +67,6 @@ const Estudiantes = () => {
     console.log(res.data)
     getMentos()
   }
-
-  // const getMento = async (id) => {
-  //   const res = await axios.get(URL + '/obtener/' + id)
-  //   setId(res.data.id)
-  //   setApellidos(res.data.apellidos)
-  //   setNombres(res.data.nombres)
-  //   setPrograma(res.data.programa)
-  //   setSemestre(res.data.semestre)
-  //   setCedula(res.data.cedula)
-  //   setContacto(res.data.contacto)
-  //   setBandera(false)
-  // }
 
   const addOrUpdateMento = () => {
     bandera ? addMento() : update()

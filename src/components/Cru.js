@@ -64,15 +64,6 @@ const Cru = () => {
     getMentos()
   }
 
-  // const getMento = async (id) => {
-  //   const res = await axios.get(URL + '/obtener/' + id)
-  //   setId(res.data.id)
-  //   setMateria(res.data.materia)
-  //   setMonitor(res.data.monitor)
-  //   setFecha(res.data.fecha)
-  //   setSalon(res.data.salon)
-  //   setBandera(false)
-  // }
 
   const addOrUpdateMento = () => {
     bandera ? addMento() : update()

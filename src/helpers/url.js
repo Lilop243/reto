@@ -1,3 +1,3 @@
 
 
-export const url = "https://apiguappjolota.herokuapp.com/datos/";
+export const url = "https://pruebatecn.herokuapp.com/datos/";
